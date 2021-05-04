@@ -27,13 +27,13 @@ public class GameLogic {
     public String result() throws InterruptedException {
         System.out.println("Ваш выбор - " + this.human);
         String winner = "";
-        int x = 0;
-        while (x < 31) {
-            System.out.print("-");
-            Thread.sleep(100);
-            x++;
-        }
-        System.out.println("\nВыбор компьютера - " + this.computer);
+//        int x = 0;
+//        while (x < 31) {
+//            System.out.print("-");
+//            Thread.sleep(100);
+//            x++;
+//        }
+        System.out.println("Выбор компьютера - " + this.computer);
         System.out.println("-------------------------------");
 
         if (this.human.equals(this.computer)) {
